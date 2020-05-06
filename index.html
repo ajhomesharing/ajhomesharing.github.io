@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+      <title>AJ HOMESHARING</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+
+      <!-- ========== CSS/Bootstrap/Fonts ====================-->
+      <link rel="stylesheet" href="static/css/style.css" type="text/css">
+      <link href="https://fonts.googleapis.com/css?family=Patrick+Hand&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Raleway:600&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    </head>
+
+    <body>
+        <!-- ============================ HEADER ========================================== -->
+        <header class="jumbotron text-center" id="main-header" style="margin-bottom:0">
+              <a href="#main-header" class="navbar-brand"><img src="static/images/Logo_aj.png" class="mx-auto d-block"></a>
+        </header>
+        <!-- ============================ NAVIGATION BAR BOOTSTRAP ================================== -->
+        <nav class="navbar navbar-expand-sm navbar-dark sticky-top" id="nav-bar">
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar" >
+                  <span class="navbar-toggler-icon"></span>
+              </button>
+
+              <div class="collapse navbar-collapse justify-content-center" id="collapsibleNavbar">
+                  <ul class="navbar-nav">
+                      <li class="nav-item">
+                          <a class="nav-link" href="#main-header">HOME</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="#portfolio">PORTFOLIO</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="#services">SERVICES</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="#about">ABOUT</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="#our-team">CONTACT</a>
+                      </li>
+                  </ul>
+              </div>
+        </nav>
+
+        <!-- ================ ADDING CAROUSEL WITH BOOTSTRAP & FLEXBOX============= ------->
+        <div id="demo" class="carousel slide" data-ride="carousel">
+             <ul class="carousel-indicators">
+                 <li data-target="#demo" data-slide-to="0" class="active"></li>
+                 <li data-target="#demo" data-slide-to="1"></li>
+                 <li data-target="#demo" data-slide-to="2"></li>
+             </ul>
+             <div class="carousel-inner">
+                 <div class="carousel-item active">
+                     <img src="static/images/cover_photo.jpg" alt="bed" width="1920" height="1279">
+                     <div class="carousel-caption">
+                          <div class="flex-container" id="context">
+                              <p><strong>Tired</strong> of dealing with management companies?.
+                                  Tired of not finding <strong>the right tentants?.</strong>
+                                  Look no further!
+                              </p>
+                          </div>
+                     </div>
+
+                 </div>
+                 <div class="carousel-item">
+                     <img src="static/images/lake-1920.jpg" alt="dining" width="1920" height="1279">
+                     <div class="carousel-caption">
+                           <div class="flex-container" id="context">
+                               <p> We <em>make your pain go away</em>
+                                   by <strong>delivering fast and efficient solutions</strong> for landords and home owners.
+                                   For a small amount of <strong><em>0% comission.</em></strong>
+                               </p>
+                           </div>
+                     </div>
+                 </div>
+                 <div class="carousel-item">
+                     <img src="static/images/cottages-1920.jpg" alt="dining" width="1920" height="1279">
+                     <div class="carousel-caption">
+                           <div class="flex-container" id="context">
+                               <p>Take a look at some of our work and services. <strong>Get in touch with us.</strong></p>
+                           </div>
+                     </div>
+                 </div>
+             </div>
+        </div>
+        <!-- =================== PORTAFOLIO: USING BOOTSTRAP & FLEXBOX ===============================-->
+        <div class="col-sm" id="portfolio">
+            <br>
+            <div class="col-sm">
+                <h3 style="font-family: 'Patrick Hand'">PORTAFOLIO.</h3>
+                <hr style="height:10px">
+            </div>
+            <br>
+            <div class="flex-container">
+                <div class="img-container">
+                    <a href="https://www.airbnb.com/wishlists/758054889"><img class="item" src="static/images/wall-640.jpg" style="width:350px; height:300px"></a>
+                    <p>AUSTIN,TX</p>
+                </div>
+                <div class="img-container">
+                    <a href="https://www.airbnb.com/wishlists/758054889"><img class="item" src="static/images/livingroom_STX2.jpg" style="width:350px; height:300px"></a>
+                    <p>SAN ANTONIO, TX</p>
+                </div>
+                <div class="img-container">
+                    <a href="https://www.airbnb.com/wishlists/758054889"><img class="item" src="static/images/mainbed_STX2.jpg" style="width:350px; height:300px"></a>
+                    <p>SAN ANTONIO, TX</p>
+                </div>
+                <div class="img-container">
+                    <a href="https://www.airbnb.com/wishlists/758054889"><img class="item" src="static/images/Austin-1600.jpg" style="width:350px; height:300px"></a>
+                    <p>AUSTIN, TX</p>
+                </div>
+                <div class="img-container">
+                    <a href="https://www.airbnb.com/wishlists/758054889"><img class="item" src="static/images/Livingroom_STX.jpg" style="width:350px; height:300px"></a>
+                    <p>DETROIT, MI</p>
+                </div>
+                <div class="img-container">
+                    <a href="https://www.airbnb.com/wishlists/758054889"><img class="item" src="static/images/mainbed_STX.jpg" style="width:350px; height:300px"></a>
+                    <p>SAN ANTONIO, TX</p>
+                </div>
+            </div>
+        </div>
+        <!-- ============================= OUR SERVICES ================================-->
+        <div class="col-sm" id="services">
+            <br>
+            <div class="col-sm">
+                <h3 style="font-family: 'Patrick Hand'">OUR AWESOME SERVICES.</h3>
+                <hr style="height:10px">
+                <p>We provide the best solution and services for owners and landords. We offer our clients tailor-made
+                services by freeing you from all the pain and headaches of being a landord. In addition we manage your
+                property for a small amount of <strong>0% commission.</strong></p>
+            </div>
+            <br>
+
+            <div class="row">
+                <div class="col-sm-4">
+                    <h4>Professional Management</h4>
+                    <br>
+                    <p>We free you from the overwhelming feeling of being a landord by managing your property. We do this by performing a
+                       thorougly screened process of guests. Because having the right tenants is essential. You will never have to deal with
+                       late payments. We will automate your rental monthy payments for you.</p>
+                </div>
+
+                <div class="col-sm-4">
+                    <h4>Maintance & Cleaning</h4>
+                    <br>
+                    <p>We know being a home owner and landlord can be stressfull when it comes to maintance and keeping the place spotless.
+                       With our system you will never have to pick up the phone late nights to fix faucet leak, holes in the walls, key losts, etc.
+                       We will do this for you!. Our company provides professional cleaning and maintance.
+                    </p>
+                </div>
+
+                <div class="col-sm-4">
+                    <h4>Security</h4>
+                    <br>
+                    <p>One of the biggest concern among property owners is safety. Therefore, we remove that pain by insuring your property.
+                       We will also install security system making your property a smart property. With our smart system you property will be
+                       safeguarded.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- ============================= WHO ARE WE (ABOUT) =========================-->
+        <div class="col-sm" id="about">
+             <br>
+             <div class="col-sm">
+                 <h3 style="font-family: 'Patrick Hand'">WHO ARE WE.</h3>
+                 <hr style="height:10px">
+                 <p>We are a strong and customer oriented Short Term Rental Property management company that delivers fast and efficient solutions.</p>
+             </div>
+             <br>
+
+             <div class="row">
+                   <div class="col-sm-6">
+                        <h4>Our Process</h4>
+                        <br>
+                        <p>The first thing you need to know about us, is that we are friendly and we pride ourselves on our client relationship. The second thing, is that we are obsessed with freeing your from your landlord duties.
+                          As a Short Rental Property management company, we handle the whole process for you. You just need to sit back and relax.
+                        </p>
+                   </div>
+
+                   <div class="col-sm-6">
+                        <h4>Our Approach</h4>
+                        <br>
+                        <p>We turn your property into a smart property. We handled all maintance and cleaning. With our system you will know exactly who comes in and out of your property at all times. We automated your monthly rental payments for you.
+                           Freeing you from all tedius and overwhelming landlord responsabilities.
+                        </p>
+                   </div>
+             </div>
+
+             <div class="row">
+                  <div class="col-sm-6">
+                        <h4>Our Goal</h4>
+                        <br>
+                        <p>Our goal is to provide you with the best tailor solution for your property and mantain our client relationship. The most important thing for us is to set you up for succes and mantain cash flow from your property.</p>
+                  </div>
+
+                  <div class="col-sm-6">
+                        <h4>Our Mission</h4>
+                        <br>
+                        <p>The mission of AJ Homesharing is dedication to the highest quality to home owners and landlords by freeing your from all struggles and pain.
+                        </p>
+                  </div>
+             </div>
+
+        </div>
+
+        <!--=================================== OUR TEAM =========================== -->
+        <div class="col-sm" id="our-team">
+            <br>
+            <div class="col-sm">
+                <h3 style="font-family: 'Patrick Hand'">MEET OUR TEAM.</h3>
+                <hr style="height:10px">
+            </div>
+            <br>
+
+            <div class="row">
+                 <div class="col-sm-3"></div>
+
+                 <div class="col-sm-3">
+                      <img class="fakeimg" src="static/images/Angel-2861.jpg">
+                      <h3>Angel Lastra</h3>
+                      <p class="title"> Co-Founder</p>
+
+                      <p><button type="button" class="open-button" onclick="openForm()">Contact</button></p>
+                      <!-- ==================== CONTACT FORM ================== -->
+                      <div class="form-popup" id="myForm">
+                           <form class="gform" action="https://script.google.com/macros/s/AKfycbwq-zgMZ8F6MlS2M2UP0W5wnUoid0dRWf1LPjT_7w/exec" method="POST">
+                               <h1>Contact Us</h1>
+
+                               <label for="name"><b>Name</b></label>
+                               <input type="text" id="name" name="name" placeholder="Your name.." required>
+
+                               <label for="email"><b>Email</b></label>
+                               <input id="email" type="text" placeholder="Enter Email" name="email" value="" required>
+                               <span class="email-invalid" style="display:none">Must be a valid email address</span>
+
+                               <label for="message"><b>Message</b></label>
+                               <textarea type="text" id="message" name="message" placeholder="Write message.." required></textarea>
+
+                               <button type="submit" class="btn">Send</button>
+                               <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+
+                               <!-- Customise the Thankyou Message People See when they submit the form: -->
+                               <div class="thankyou_message" style="display:none">
+                                 <h2><em>Thanks</em> for contacting us!
+                                   We will get back to you soon!</h2>
+                               </div>
+                           </form>
+                      </div>
+                 </div>
+
+                 <div class="col-sm-3">
+                      <img class="fakeimg" src="static/images/julio-1066.jpg">
+                      <h3>Julio Oyervides</h3>
+                      <p class="title"> Co-Founder</p>
+
+                      <p><button type="button" class="open-button" onclick="openForm()">Contact</button></p>
+                      <!-- ==================== CONTACT FORM ================== -->
+                      <div class="form-popup" id="myForm">
+                           <form class="gform" action="https://script.google.com/macros/s/AKfycbwq-zgMZ8F6MlS2M2UP0W5wnUoid0dRWf1LPjT_7w/exec" method="POST">
+                               <h1>Contact Us</h1>
+
+                               <label for="name"><b>Name</b></label>
+                               <input type="text" id="name" name="name" placeholder="Your name.." required>
+
+                               <label for="email"><b>Email</b></label>
+                               <input id="email" type="text" placeholder="Enter Email" name="email" value="" required>
+                               <span class="email-invalid" style="display:none">Must be a valid email address</span>
+
+                               <label for="message"><b>Message</b></label>
+                               <textarea type="text" id="message" name="message" placeholder="Write message.." required></textarea>
+
+                               <button type="submit" class="btn">Send</button>
+                               <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+
+                               <!-- Customise the Thankyou Message People See when they submit the form: -->
+                               <div class="thankyou_message" style="display:none">
+                                 <h2><em>Thanks</em> for contacting us!
+                                   We will get back to you soon!</h2>
+                               </div>
+                           </form>
+                      </div>
+                 </div>
+
+                 <div class="col-sm-3"></div>
+             </div>
+
+        </div>
+
+
+
+
+        <!-- ========================= ADDING JS FOR BOOTSTRAP================================= -->
+        <!-- Form button functinality -->
+        <script src="static/js/contact.js" type="text/javascript"></script>
+        <!-- submit form to google using AJAX -->
+        <script data-cfasync="false" type="text/javascript" src="static/js/form-submission-handler.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+    </body>
+</html>
